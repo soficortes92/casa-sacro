@@ -6,26 +6,30 @@
     margin: 0;
     padding: 0;
 }
+.header a {
+  font-family: 'tan nimbus';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h2 {
     font-family: 'tan nimbus';
 }
-
-.container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: auto auto auto; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "header header header"
-      "terapias terapias terapias"
-      "footer footer footer"; 
-}
-  .header { 
-    grid-area: header; 
-}
-  .terapias {
-    grid-area: terapias; 
-}
-  .footer {
-    grid-area: footer; 
+.terapias-item{
+  display: flex;
 }
