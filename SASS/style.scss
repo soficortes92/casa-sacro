@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'tan nimbus';
+    src: url(../tipografia/TAN-NIMBUS.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header .header {
+    a {
+        font-family: 'tan nimbus';
+    }
+}
