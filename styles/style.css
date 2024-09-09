@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'tan nimbus';
+  src: url(./tipografia/TAN-NIMBUS.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.header a {
+  font-family: 'tan nimbus';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  font-family: 'tan nimbus';
+}
+.terapias-item{
+  display: flex;
+}
