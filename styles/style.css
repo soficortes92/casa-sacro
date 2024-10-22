@@ -6,8 +6,12 @@
   margin: 0;
   padding: 0;
 }
+.cuerpo {
+  background-color: #f6f3ec;
+}
 header {
   width: 100%;
+  border: 1px solid #9d6843;
 }
 header nav {
   display: flex;
@@ -40,27 +44,19 @@ header nav ul li a:hover {
   border-bottom: 3px solid #9d6843;
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h2 {
-  font-family: 'tan nimbus';
-}
+/* .terapias-section {
+  background-color: #d9bfac;
+} */
 .terapias-item{
   display: flex;
+  border: 2px solid rgba(165, 114, 42, 0.864);
+  margin: 10px;
+}
+.terapias-item img {
+  width: 25%;
+  background-color: #d9bfac;
+}
+.terapias-item p {
+  font-family: "tan nimbus";
+
 }
